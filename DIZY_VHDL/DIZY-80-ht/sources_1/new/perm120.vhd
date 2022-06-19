@@ -13,15 +13,15 @@ architecture behavioral of perm is
 begin
 --0
 
-data_out( 0) <= data_in(2) XOR  data_in(18);
+data_out( 0) <= data_in(6) XOR  data_in(22);
 data_out( 1) <= data_in(16) XOR data_in(8);
-data_out( 2) <= data_in(0) XOR  data_in(22);
+data_out( 2) <= data_in(0) XOR  data_in(18);
 data_out( 3) <= data_in(15);          
 data_out( 4) <= data_in(1);          
 --1                           
 data_out( 5) <= data_in(7) XOR  data_in(27);
 data_out( 6) <= data_in(20) XOR data_in(13);
-data_out( 7) <= data_in(6) XOR  data_in(23);
+data_out( 7) <= data_in(2) XOR  data_in(23);
 data_out( 8) <= data_in(21);          
 data_out( 9) <= data_in(11);          
 --2                           
@@ -49,15 +49,15 @@ data_out(27) <= data_in(5) XOR  data_in(19);
 data_out(28) <= data_in(26);
 data_out(29) <= data_in(6);
 --6              
-data_out(30) <= data_in(32) XOR data_in(48);
+data_out(30) <= data_in(36) XOR data_in(52);
 data_out(31) <= data_in(46) XOR data_in(38);
-data_out(32) <= data_in(30) XOR data_in(52);
+data_out(32) <= data_in(30) XOR data_in(48);
 data_out(33) <= data_in(45);
 data_out(34) <= data_in(31);
 --7              
 data_out(35) <= data_in(37) XOR data_in(57);
 data_out(36) <= data_in(50) XOR data_in(43);
-data_out(37) <= data_in(36) XOR data_in(53);
+data_out(37) <= data_in(32) XOR data_in(53);
 data_out(38) <= data_in(51);
 data_out(39) <= data_in(41);
 --8              
@@ -85,15 +85,15 @@ data_out(57) <= data_in(35) XOR data_in(49);
 data_out(58) <= data_in(56);
 data_out(59) <= data_in(36);
 --12
-data_out(60) <= data_in(62) XOR data_in(78);
+data_out(60) <= data_in(66) XOR data_in(82);
 data_out(61) <= data_in(76) XOR data_in(68);
-data_out(62) <= data_in(60) XOR data_in(82);
+data_out(62) <= data_in(60) XOR data_in(78);
 data_out(63) <= data_in(75);
 data_out(64) <= data_in(61);
 --13
 data_out(65) <= data_in(67) XOR data_in(87);
 data_out(66) <= data_in(80) XOR data_in(73);
-data_out(67) <= data_in(66) XOR data_in(83);
+data_out(67) <= data_in(62) XOR data_in(83);
 data_out(68) <= data_in(81);
 data_out(69) <= data_in(71);
 --14
@@ -121,15 +121,15 @@ data_out(87) <= data_in(65) XOR data_in(79);
 data_out(88) <= data_in(86);
 data_out(89) <= data_in(66);
 --18
-data_out(90) <= data_in(92) XOR  data_in(108);
+data_out(90) <= data_in(96) XOR  data_in(112);
 data_out(91) <= data_in(106) XOR data_in(98);
-data_out(92) <= data_in(90) XOR  data_in(112);
+data_out(92) <= data_in(90) XOR  data_in(108);
 data_out(93) <= data_in(105);
 data_out(94) <= data_in(91);
 --19
 data_out(95) <= data_in(97) XOR  data_in(117);
 data_out(96) <= data_in(110) XOR data_in(103);
-data_out(97) <= data_in(96) XOR  data_in(113);
+data_out(97) <= data_in(92) XOR  data_in(113);
 data_out(98) <= data_in(111);
 data_out(99) <= data_in(101);
 --20
