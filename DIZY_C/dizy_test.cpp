@@ -113,9 +113,9 @@ int main(){
 	dizy80_ksg(key, round_consts, IV);
 
 //	 lfsr outputs: 			8 1 3 7 15 14 13 10 5 11 6 12 9 2 4
-// 	 first 32 bits output:  b9ae5c57
-// 	 second 32 bits output: dd9e69d6
-//   third 32 bits:        	0047b8a4 
+// 	 first 32 bits output:  9def2292
+// 	 second 32 bits output: 3c8cea27
+//   third 32 bits:        	57f9de44 
 	
 /*****************************************************************************************************/
  	//DIZY-128-newinit-2bitxor 15 rounds test vectors uncomment the following lines of codes
