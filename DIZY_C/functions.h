@@ -63,15 +63,15 @@ void perm120(u8* state){
 	
 	u8 temp[120] = {0};
 	//0
-	temp[ 0] = state[2]  ^  state[18];
+	temp[ 0] = state[6]  ^  state[22];
 	temp[ 1] = state[16]  ^ state[8];
-	temp[ 2] = state[0]  ^  state[22];
+	temp[ 2] = state[0]  ^  state[18];
 	temp[ 3] = state[15];          
 	temp[ 4] = state[1];          
 	//1                           
 	temp[ 5] = state[7]  ^  state[27];
 	temp[ 6] = state[20]  ^ state[13];
-	temp[ 7] = state[6]  ^  state[23];
+	temp[ 7] = state[2]  ^  state[23];
 	temp[ 8] = state[21];          
 	temp[ 9] = state[11];          
 	//2                           
@@ -99,15 +99,15 @@ void perm120(u8* state){
 	temp[28] = state[26];
 	temp[29] = state[6];
 	//6              
-	temp[30] = state[32]  ^ state[48];
+	temp[30] = state[36]  ^ state[52];
 	temp[31] = state[46]  ^ state[38];
-	temp[32] = state[30]  ^ state[52];
+	temp[32] = state[30]  ^ state[48];
 	temp[33] = state[45];
 	temp[34] = state[31];
 	//7              
 	temp[35] = state[37]  ^ state[57];
 	temp[36] = state[50]  ^ state[43];
-	temp[37] = state[36]  ^ state[53];
+	temp[37] = state[32]  ^ state[53];
 	temp[38] = state[51];
 	temp[39] = state[41];
 	//8              
@@ -135,15 +135,15 @@ void perm120(u8* state){
 	temp[58] = state[56];
 	temp[59] = state[36];
 	//12
-	temp[60] = state[62]  ^ state[78];
+	temp[60] = state[66]  ^ state[82];
 	temp[61] = state[76]  ^ state[68];
-	temp[62] = state[60]  ^ state[82];
+	temp[62] = state[60]  ^ state[78];
 	temp[63] = state[75];
 	temp[64] = state[61];
 	//13
 	temp[65] = state[67]  ^ state[87];
 	temp[66] = state[80]  ^ state[73];
-	temp[67] = state[66]  ^ state[83];
+	temp[67] = state[62]  ^ state[83];
 	temp[68] = state[81];
 	temp[69] = state[71];
 	//14
@@ -171,15 +171,15 @@ void perm120(u8* state){
 	temp[88] = state[86];
 	temp[89] = state[66];
 	//18
-	temp[90] = state[92]  ^  state[108];
+	temp[90] = state[96]  ^  state[112];
 	temp[91] = state[106]  ^ state[98];
-	temp[92] = state[90]  ^  state[112];
+	temp[92] = state[90]  ^  state[108];
 	temp[93] = state[105];
 	temp[94] = state[91];
 	//19
 	temp[95] = state[97]  ^  state[117];
 	temp[96] = state[110]  ^ state[103];
-	temp[97] = state[96]  ^  state[113];
+	temp[97] = state[92]  ^  state[113];
 	temp[98] = state[111];
 	temp[99] = state[101];
 	//20
