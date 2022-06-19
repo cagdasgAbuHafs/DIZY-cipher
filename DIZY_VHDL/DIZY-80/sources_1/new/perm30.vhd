@@ -11,9 +11,9 @@ architecture Behavioral of perm30 is
 
 begin
 
-data_out( 0) <= data_in(2)  XOR   data_in(18);
+data_out( 0) <= data_in(6)  XOR   data_in(22);
 data_out( 1) <= data_in(16)  XOR  data_in(8);
-data_out( 2) <= data_in(0)  XOR   data_in(22);
+data_out( 2) <= data_in(0)  XOR   data_in(18);
 data_out( 3) <= data_in(15);          
 data_out( 4) <= data_in(1);          
 --1                           
