@@ -19,7 +19,7 @@ data_out( 4) <= data_in(1);
 --1                           
 data_out( 5) <= data_in(7)  XOR   data_in(27);
 data_out( 6) <= data_in(20)  XOR  data_in(13);
-data_out( 7) <= data_in(6)  XOR   data_in(23);
+data_out( 7) <= data_in(2)  XOR   data_in(23);
 data_out( 8) <= data_in(21);          
 data_out( 9) <= data_in(11);          
 --2                           
